@@ -1,10 +1,10 @@
 .. -*- mode: rst -*-
 
 =======
- Cyrax
+ Conrad
 =======
 
-Cyrax is a static site generator using Jinja2_ template engine.
+Conrad is a static site generator using Jinja2_ template engine.
 
 It's inspired from Jekyll_ and Hyde_ site generators and started when I realized
 that I'm dissatisfied with both of them by different reasons. When I tried to
@@ -16,9 +16,9 @@ Installation
 
 Well, it's quite simple, as usually::
 
-  pip install cyrax
+  pip install conrad
 
-Cyrax depends on Jinja2 template library, so you can install it through your OS
+Conrad depends on Jinja2 template library, so you can install it through your OS
 package system (in other case pip will install it automatically).
 
 Note, please, that to use parsers like markdown, or reST, or textile,
@@ -28,7 +28,7 @@ python-markdown2 are good enough for markdown).
 Usage
 -----
 
-Read some docs_, run ``cyrax --help`` to read about command line options, look
+Read some docs_, run ``conrad --help`` to read about command line options, look
 at `example site`_.
 
 News
@@ -37,7 +37,7 @@ News
 Indeed something happens with each release and you are probably interested what
 (and too lazy to read `changelog`_).
 
-.. _changelog: http://github.com/piranha/cyrax/
+.. _changelog: http://github.com/piranha/conrad/
 
 2.4-2.5 (16.08.2011)
 ~~~~~~~~~~~~~~~~~~~~
@@ -59,14 +59,14 @@ Indeed something happens with each release and you are probably interested what
 2.0 (18.12.2010)
 ~~~~~~~~~~~~~~~~
 
-- refactored module system, no more ``cyraxlib``, only ``cyrax`` now exists
+- refactored module system, no more ``conradlib``, only ``conrad`` now exists
 - completely refactored internal models system, now it uses usual inheritance
   instead of some strange composition (which means it's easier to understand
   and to extend now)
 - ability to write posts in reStructuredText (which as well could serve as an
   `example`_ to writing your own models).
 
-.. _example: http://github.com/piranha/cyrax/blob/master/cyrax/rstpost.py
+.. _example: http://github.com/piranha/conrad/blob/master/conrad/rstpost.py
 
 1.0-1.1 (28.11.2010)
 ~~~~~~~~~~~~~~~~~~~~
@@ -79,6 +79,6 @@ Indeed something happens with each release and you are probably interested what
 .. _Jinja2: http://jinja.pocoo.org/2/
 .. _Jekyll: http://github.com/mojombo/jekyll/
 .. _Hyde: http://github.com/lakshmivyas/hyde/
-.. _repository: http://github.com/piranha/cyrax/
-.. _docs: http://cyrax.readthedocs.org/
-.. _example site: http://github.com/piranha/cyrax/tree/master/content/
+.. _repository: http://github.com/piranha/conrad/
+.. _docs: http://conrad.readthedocs.org/
+.. _example site: http://github.com/piranha/conrad/tree/master/content/

@@ -3,12 +3,13 @@ import time
 import datetime
 import posixpath
 import logging
+import os
 
 from libconrad.conf import Settings
 from libconrad.events import events
 from libconrad.utils import (safe_url_join, url2path, path2url,
                          base_path, makedirs)
-from libconrad.pubtools
+#from libconrad.pubtools
 
 logger = logging.getLogger(__name__)
 DATE_RE = re.compile(r'(.*?)(\d+)[/-](\d+)[/-](\d+)[/-](.*)$')
